@@ -1,0 +1,21 @@
+#debugger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  pointer-events: none;
+}
+
+.controls {
+  position: fixed;
+  max-width: calc(8px * 32);
+  border-radius: 8px;
+  padding: calc(8px * 2);
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  border-radius: 0.5rem;
+  color: #333;
+  pointer-events: all;
+}
