@@ -1,5 +1,7 @@
 # React Latency
 
+![React Latency](https://github.com/amogower/react-latency/raw/master/img/screenshot.png)
+
 A packaged version of the latency widget used by Jared Palmer in his [Moving To React Suspense](https://www.youtube.com/watch?v=SCQgE4mTnjU) talk from React Conf 2018,
 
 It's useful for mocking fetch requests at different latencies to observe how your app looks in various loading statees.
