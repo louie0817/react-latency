@@ -51,7 +51,7 @@ class App extends Component {
 export default appWrapper(App);
 ```
 
-#### Import `mockApiCall` and use it in place of a fetch call:
+#### Import `mockApiCall` and use it in place of a fetch call, supplying an endpoint as the first argument and the mock success response as the second:
 
 ```javascript
 import React, { Component } from 'react';
