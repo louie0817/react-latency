@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import AppWrapper, { Debugger } from './Debugger';
+import appWrapper, { Debugger } from './Debugger';
 import { mockAPICall } from './utils';
 
-export default function debug() {
+function init() {
   if (typeof document === 'undefined') {
     return;
   }
@@ -18,4 +18,4 @@ export default function debug() {
   });
 }
 
-export { AppWrapper, mockAPICall };
+export { appWrapper, init, mockAPICall };

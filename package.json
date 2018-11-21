@@ -1,6 +1,6 @@
 {
   "name": "react-latency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "amogower",
   "main": "dist/index.js",
@@ -32,6 +32,8 @@
     "jest-cli": "^23.6.0",
     "lint-staged": "^8.0.5",
     "prettier": "^1.15.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-testing-library": "^5.2.3",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.3",

@@ -11,7 +11,7 @@ const external = ['react', 'react-dom'];
 
 export default {
   input,
-  external: external.concat(Object.keys(pkg.dependencies)),
+  external: external.concat(Object.keys(pkg.dependencies), Object.keys(pkg.peerDependencies)),
   output: [
     {
       file: pkg.module,

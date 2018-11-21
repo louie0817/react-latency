@@ -12,7 +12,7 @@ import './style.css';
 
 let handleReset;
 
-export default function AppWrapper(App) {
+export default function appWrapper(App) {
   return class extends PureComponent {
     state = {
       iteration: 0,
@@ -114,8 +114,8 @@ export class Debugger extends PureComponent {
             <input
               type="range"
               min="0"
-              max="3"
-              step="0.5"
+              max="5"
+              step="0.25"
               style={{ width: '100%' }}
               value={this.state.requestTime}
               onChange={e => {
